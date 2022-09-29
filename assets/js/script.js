@@ -3,16 +3,16 @@ const spanPlayer = document.querySelector('.player');
 const timer = document.querySelector('.timer');
 
 const characters = [
-  'beth',
-  'jerry',
-  'jessica',
-  'morty',
-  'pessoa-passaro',
-  'pickle-rick',
-  'rick',
-  'summer',
-  'meeseeks',
-  'scroopy',
+  'chase',
+  'skye',
+  'everest',
+  'marshall',
+  'rocky',
+  'rubles',
+  'zuma',
+  'ryder',
+  'tracker',
+  'mayorgoodway',
 ];
 
 const createElement = (tag, className) => {
@@ -29,7 +29,7 @@ const checkEndGame = () => {
 
   if (disabledCards.length === 20) {
     clearInterval(this.loop);
-    alert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi: ${timer.innerHTML}`);
+    alert(`Congrats, ${spanPlayer.innerHTML}! your time was: ${timer.innerHTML}`);
   }
 }
 
@@ -88,7 +88,7 @@ const createCard = (character) => {
   const front = createElement('div', 'face front');
   const back = createElement('div', 'face back');
 
-  front.style.backgroundImage = `url('../images/${character}.png')`;
+  front.style.backgroundImage = `url('assets/images/${character}.png')`;
 
   card.appendChild(front);
   card.appendChild(back);

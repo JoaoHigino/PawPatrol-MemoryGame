@@ -30,7 +30,7 @@ const checkEndGame = () => {
 
   if (disabledCards.length === 20) {
     clearInterval(this.loop);
-    // alert(`Congrats, ${spanPlayer.innerHTML}! your time was: ${timer.innerHTML}`);
+    alert(`Congratulations, ${spanPlayer.innerHTML}! your time was: ${timer.innerHTML}`);
   }
 }
 
@@ -57,7 +57,7 @@ const checkCards = () => {
       firstCard = '';
       secondCard = '';
 
-    }, 500);
+    }, 1500);
   }
 
 }

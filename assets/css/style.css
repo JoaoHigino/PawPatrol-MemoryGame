@@ -20,19 +20,18 @@ main {
   /* header */
   header {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.8);
     font-size: 1.2em;
     width: 100%;
     max-width: 800px;
     padding: 30px;
-    margin: 0 0 30px;
     border-radius: 5px;
   }
   /*  Heading */
 .heading {
-    padding: 30px;
+    
     text-align: center;
     font-size: 2.5rem;
 }
@@ -91,13 +90,12 @@ main {
 
 .reset,
 .howtoplay {
-
-    height: 3rem;
     width: 8rem;
     background-color: transparent;
     color: #e91717;
-    font-size: 20px;
     cursor: pointer;
+    height: 3rem;
+    font-size: 20px;
 }
 
 .back-button {

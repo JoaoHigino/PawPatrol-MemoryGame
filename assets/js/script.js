@@ -30,7 +30,7 @@ const checkEndGame = () => {
 
   if (disabledCards.length === 20) {
     clearInterval(this.loop);
-    alert(`Congratulations, ${spanPlayer.innerHTML}! your time was: ${timer.innerHTML}`);
+    alert(`Congratulations, your time was: ${timer.innerHTML}`);
   }
 }
 
@@ -125,6 +125,11 @@ window.onload = () => {
   startTimer();
   loadGame();
 }
+
+
+// reset
+
+
 
 // how to play open instructions
 const rulesButton = document.querySelector(".howtoplay");

@@ -2,17 +2,18 @@ const grid = document.querySelector('.grid');
 const spanPlayer = document.querySelector('.player');
 const timer = document.querySelector('.timer');
 
+// card characters
 const characters = [
   'chase',
   'skye',
   'everest',
   'marshall',
   'rocky',
-  'rubles',
   'zuma',
   'ryder',
   'tracker',
   'mayorgoodway',
+  'rubles',
 ];
 
 const createElement = (tag, className) => {
@@ -29,7 +30,7 @@ const checkEndGame = () => {
 
   if (disabledCards.length === 20) {
     clearInterval(this.loop);
-    alert(`Congrats, ${spanPlayer.innerHTML}! your time was: ${timer.innerHTML}`);
+    // alert(`Congrats, ${spanPlayer.innerHTML}! your time was: ${timer.innerHTML}`);
   }
 }
 

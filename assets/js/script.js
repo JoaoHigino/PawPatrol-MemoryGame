@@ -129,6 +129,8 @@ window.onload = () => {
 
 // reset
 
+
+
 const resetButton = document.querySelector(".reset");
 
 resetButton.addEventListener("click", () => {
@@ -142,7 +144,6 @@ resetButton.addEventListener("click", () => {
 // how to play open instructions
 const rulesButton = document.querySelector(".howtoplay");
 let rules = document.getElementsByClassName("rules-pop");
-const cards = document.querySelectorAll(".memory-card");
 
 rulesButton.addEventListener('click', showRules);
 

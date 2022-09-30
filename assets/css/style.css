@@ -184,9 +184,8 @@ header {
 
   .reset,
   .howtoplay {
-    height: 2rem;
     width: 5rem;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 1px;
   }
 

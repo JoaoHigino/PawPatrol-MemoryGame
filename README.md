@@ -1,9 +1,9 @@
-# Sandra Home and Organization
+# Paw Patrol Memory Game
 
-Sandra Home and Organization is a cleaning company based in Malmo, Sweden. With this project we try to show all of our different services to new costumers.
+Memory game also called concentration is a game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards. Paw Patrol memory game is a game using paw patrol characters to match 10 pairs. 
 
 
-![diferent views](./documentation/diferent_views.png)
+![diferent views](./documents/paw-patrol-responsive.png)
 
 ### Existing Features
 
@@ -52,20 +52,20 @@ Sandra Home and Organization is a cleaning company based in Malmo, Sweden. With 
   - The gallery will provide the user with supporting images to see what our final projects look like. 
   - This section is valuable to the user as they will be able to easily identify the types of services we offer. 
 
-![gallery](./documentation/gallery.png)
+![X]()
 
 
 - __The contact Page__
 
   - This page will allow the user to choose which service they need. The user will be asked to submit their full name and email address. 
 
-![contact](./documentation/contact.png)
+![Y]()
 
 - __The confirmation Page__
 
   - This page will confirm to the users that we receive their message and we will reach out as soon as possible.
   
- ![confirmation](./documentation/confirmation.png)
+ ![Z]()
 
 
 ### Features Left to Implement
@@ -82,61 +82,60 @@ Sandra Home and Organization is a cleaning company based in Malmo, Sweden. With 
 - [Google Fonts](https://fonts.google.com) - was used to find the fonts for the website
 - [Pexels](https://www.pexels.com) - provided the images seen throughout the website
 - [Grammarly](https://app.grammarly.com) - was used to check typography.
-- [Am I Responsive](https://ui.dev/amiresponsive?url=https://joaohigino.github.io/SandraHomeOrganization/) - was used to produce the website mockup.
+- [Am I Responsive](https://ui.dev/amiresponsive?url=https://joaohigino.github.io/CHANGE/) - was used to produce the website mockup.
+- [JSHint](https://jshint.com/) - was used to 
 
 ## Browser testing
 
 - Chrome
-![chrome checker](./documentation/chrome.png)
+![chrome checker]()
 - Opera
-![opera checker](./documentation/opera.png)
+![opera checker]()
 - Edge
-![edge checker](./documentation/edge.png)
+![edge checker]()
 - Safari
 
-![safari checker](./documentation/safari.jpg)
+![safari checker]()
 
 ## Mobile Testing 
 
 - The website was viewed on a variety of devices such as desktops, Laptops, Apples Products and a range of Android devices:
   - IPad Mini
 
-  ![ipad checker](./documentation/ipad%20mini.png)
+  ![ipad checker]()
   - iPhone 12 Pro
 
-  ![iphone checker](./documentation/iphone12pro.png)
+  ![iphone checker]()
   - Samsung Galaxy Fold
 
   ![fold checker](./documentation/fold.png)
   - Samsung Galaxy S20
 
-  ![galaxy checker](./documentation/galaxys20.png)
+  ![galaxy checker]()
 
 
 ### Validator Testing 
 
 - HTML
   - No errors were returned when passing through the official
-  ![html checker](./documentation/html_checker.png)
-  ![html checker](./documentation/html-gallety.png)
-  ![html checker](./documentation/html-contact.png)
+  ![html checker]()
 
 - CSS
   - No errors were found when passing through the official
-  ![w3c](./documentation/w3c.png)
+  ![w3c](./documents/w3c.png)
   
 - Lighhouse
   - The site scored well
 
- ![performance](./documentation/performance.png)
+ ![performance]()
 
    - The site scored well
 
- ![performance](./documentation/performance-gallery.png)
+ ![performance]()
 
    - The low performance is due to large image dimensions
 
- ![performance](./documentation/performance-contact.png)
+ ![performance]()
 
 ## Unfixed Bugs
 
@@ -145,11 +144,11 @@ No unfixed bugs that i am aware.
 ## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the [GitHub repository](https://github.com/JoaoHigino/SandraHomeOrganization), navigate to the Settings tab 
+  - In the [GitHub repository](https://github.com/JoaoHigino/PawPatrol-MemoryGame), navigate to the Settings tab 
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found [here](https://joaohigino.github.io/SandraHomeOrganization)
+The live link can be found [here](https://joaohigino.github.io/PawPatrol-MemoryGame/)
 
 ### Local Deployment
 
@@ -159,7 +158,7 @@ In order to make a local copy of this project, you can clone it. In your IDE Ter
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/JoaoHigino/SandraHomeOrganization)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/JoaoHigino/PawPatrol-MemoryGame)
 
 
 ## **Content**
@@ -169,7 +168,7 @@ All content was written by developer.
 ## Acknowledgements
 
 - To my amazing wife Sandra, my best friend, my mentor, and my safe haven, without her, all my dreams will be impossible to achieve. She is everything.
-- To my two kids, Maria and Thomas, with them life is easy and light. They make me laugh and think that our future is bright.
+- To my two kids, Maria and Thomas, with them life is easy and light. They make me laugh and think that our future is bright. 
 - To my family and friends - for being a great support and providing a lot of the user testing for me, especially my friends from "Liga 7 BP" with their craziness helped me to clean my head.
 - To my mentor Tim Nelson for all his guidance, support, tips, and feedback.
 - The Code Institute community on slack and my classmates its been a pleasure so far.

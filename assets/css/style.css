@@ -105,7 +105,7 @@ header {
   height: 3rem;
   width: 8rem;
   color: #e91717;
-  font-size: 20px;
+  font-size: 15px;
   cursor: pointer;
 }
 
@@ -136,7 +136,7 @@ header {
 
 /* START MEDIA QUERIES */
 @media screen and (min-width: 1440px) {
-  #grid {
+  .grid {
     width: 50%;
   }
 }
@@ -213,8 +213,6 @@ header {
 
   .reset,
   .howtoplay {
-    height: 2rem;
-    width: 4rem;
     font-size: 12px;
     letter-spacing: 1px;
   }

@@ -20,7 +20,7 @@ const createElement = (tag, className) => {
   const element = document.createElement(tag);
   element.className = className;
   return element;
-}
+};
 
 let firstCard = '';
 let secondCard = '';
@@ -32,7 +32,7 @@ const checkEndGame = () => {
     clearInterval(this.loop);
     alert(`Congratulations, your time was: ${timer.innerHTML}`);
   }
-}
+};
 // check cards
 const checkCards = () => {
   const firstCharacter = firstCard.getAttribute('data-character');
@@ -60,7 +60,7 @@ const checkCards = () => {
     }, 1500);
   }
 
-}
+};
 // reveal cards
 const revealCard = ({ target }) => {
 
@@ -81,7 +81,7 @@ const revealCard = ({ target }) => {
     checkCards();
 
   }  
-}
+};
 // create card
 const createCard = (character) => {
 
@@ -95,10 +95,10 @@ const createCard = (character) => {
   card.appendChild(back);
 
   card.addEventListener('click', revealCard);
-  card.setAttribute('data-character', character)
+  card.setAttribute('data-character', character);
 
   return card;
-}
+};
 // load game
 const loadGame = () => {
   const duplicateCharacters = [ ...characters, ...characters ];
@@ -109,7 +109,7 @@ const loadGame = () => {
     const card = createCard(character);
     grid.appendChild(card);
   });
-}
+};
 // start timer
 const startTimer = () => {
 
@@ -118,13 +118,13 @@ const startTimer = () => {
     timer.innerHTML = currentTime + 1;
   }, 1000);
 
-}
+};
 
 window.onload = () => {
   spanPlayer.innerHTML = localStorage.getItem('player');
   startTimer();
   loadGame();
-}
+};
 
 
 // reset
@@ -160,5 +160,7 @@ playButton.addEventListener('click', hideRules);
 function hideRules() {
     rules[0].style.display = "none";
 }
+
+
 
 

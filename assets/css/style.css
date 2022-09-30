@@ -130,3 +130,107 @@ main {
     max-width: 60%;
     color: white;
 }
+
+/* START MEDIA QUERIES */
+@media screen and (min-width: 1440px) {
+  #grid {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .rules-pop {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 6rem);
+    grid-template-rows: repeat(4, 6rem);
+    justify-content: center;
+    perspective: 800px;
+  }
+
+  .heading {
+    font-size: 150%;
+  }
+
+  .moves {
+    font-size: 80%;
+  }
+
+  .howtoplay {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 60%;
+  }
+
+  
+}
+
+@media screen and (max-width: 580px) {
+  .game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 4rem);
+    grid-template-rows: repeat(4, 4rem);
+    justify-content: center;
+    perspective: 800px;
+  }
+
+  h1 {
+    font-size: 100%;
+  }
+
+  
+
+  .reset,
+  .howtoplay {
+    height: 2rem;
+    width: 5rem;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .faq {
+    border: 0.8em solid rgb(185, 208, 231, .5);
+    background-color: #19718b;
+    border-radius: 20px;
+    margin: 3rem auto;
+    padding: 1rem;
+  }
+
+  
+
+  .ready-button,
+  .play-button {
+    font-size: 12px;
+    margin: 0;
+    letter-spacing: 0px;
+    height: 2rem;
+    width: 6rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 3rem);
+    grid-template-rows: repeat(4, 3rem);
+    justify-content: center;
+    perspective: 800px;
+  }
+
+  .heading {
+    font-size: 85%;
+  }
+
+  .reset,
+  .rules {
+    height: 2rem;
+    width: 4rem;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+}

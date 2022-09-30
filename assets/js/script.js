@@ -15,7 +15,7 @@ const characters = [
   'mayorgoodway',
   'rubles',
 ];
-
+// create board
 const createElement = (tag, className) => {
   const element = document.createElement(tag);
   element.className = className;
@@ -33,7 +33,7 @@ const checkEndGame = () => {
     alert(`Congratulations, your time was: ${timer.innerHTML}`);
   }
 }
-
+// check cards
 const checkCards = () => {
   const firstCharacter = firstCard.getAttribute('data-character');
   const secondCharacter = secondCard.getAttribute('data-character');
@@ -61,7 +61,7 @@ const checkCards = () => {
   }
 
 }
-
+// reveal cards
 const revealCard = ({ target }) => {
 
   if (target.parentNode.className.includes('reveal-card')) {
@@ -82,7 +82,7 @@ const revealCard = ({ target }) => {
 
   }  
 }
-
+// create card
 const createCard = (character) => {
 
   const card = createElement('div', 'card');
@@ -99,7 +99,7 @@ const createCard = (character) => {
 
   return card;
 }
-
+// load game
 const loadGame = () => {
   const duplicateCharacters = [ ...characters, ...characters ];
 
@@ -110,7 +110,7 @@ const loadGame = () => {
     grid.appendChild(card);
   });
 }
-
+// start timer
 const startTimer = () => {
 
   this.loop = setInterval(() => {
@@ -128,6 +128,14 @@ window.onload = () => {
 
 
 // reset
+
+const resetButton = document.querySelector(".reset");
+
+resetButton.addEventListener("click", () => {
+   
+});
+
+
 
 
 

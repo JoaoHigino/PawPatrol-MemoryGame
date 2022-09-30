@@ -1,108 +1,175 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Sandra Home and Organization
 
-Welcome JoaoHigino,
+Sandra Home and Organization is a cleaning company based in Malmo, Sweden. With this project we try to show all of our different services to new costumers.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![diferent views](./documentation/diferent_views.png)
 
-## Gitpod Reminders
+### Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- __Navigation Bar__
 
-`python3 -m http.server`
+  - Featured on all three pages and the shortcut to About Us, the full responsive navigation bar includes links to the Logo, Home page, About Us, Gallery, and Contact page and is identical on each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert to the previous page via the ‘back’ button. 
 
-A blue button should appear to click: _Make Public_,
+![sandra nav bar](./documentation/sandra_nav_bar.png)
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- __The landing page image__
 
-A blue button should appear to click: _Make Public_,
+  - The landing includes a photograph to allow the user to see how a house can be with our services. 
+  - A motivation phrase under the main image.
+  
+![main image](./documentation/main_image.png)
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- __About Us Section__
 
-To log into the Heroku toolbelt CLI:
+  - Includes a small story about the company. 
+  - In this section, we show our future custumers what type of services we have available.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![about us](./documentation/about_us.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
 
-## Release History
+- __Why have us section__
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+  - This section will allow the user to see some benefits of having us as a cleaning company.  
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![house](./documentation/why_us.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- __The Footer__ 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  - The footer section includes links to the relevant social media sites for Sandra Home and Organization. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![footer](./documentation/footer.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- __Gallery__
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+  - The gallery will provide the user with supporting images to see what our final projects look like. 
+  - This section is valuable to the user as they will be able to easily identify the types of services we offer. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![gallery](./documentation/gallery.png)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- __The contact Page__
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+  - This page will allow the user to choose which service they need. The user will be asked to submit their full name and email address. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![contact](./documentation/contact.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- __The confirmation Page__
 
-------
+  - This page will confirm to the users that we receive their message and we will reach out as soon as possible.
+  
+ ![confirmation](./documentation/confirmation.png)
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
+### Features Left to Implement
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- Add some videos demonstrating our different types of services.
 
-**How will this affect me?**
+## Technologies Used
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- [Gitpod](https://www.gitpod.io) - was used to create the website
+- [Github](https://github.com) - was used to store repository of website and deploy the website
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools) - was used to view and experiment with styles
+- [Google Fonts](https://fonts.google.com) - was used to find the fonts for the website
+- [Pexels](https://www.pexels.com) - provided the images seen throughout the website
+- [Grammarly](https://app.grammarly.com) - was used to check typography.
+- [Am I Responsive](https://ui.dev/amiresponsive?url=https://joaohigino.github.io/SandraHomeOrganization/) - was used to produce the website mockup.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Browser testing
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- Chrome
+![chrome checker](./documentation/chrome.png)
+- Opera
+![opera checker](./documentation/opera.png)
+- Edge
+![edge checker](./documentation/edge.png)
+- Safari
 
-**So….?**
+![safari checker](./documentation/safari.jpg)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## Mobile Testing 
 
-**Can I opt out?**
+- The website was viewed on a variety of devices such as desktops, Laptops, Apples Products and a range of Android devices:
+  - IPad Mini
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+  ![ipad checker](./documentation/ipad%20mini.png)
+  - iPhone 12 Pro
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+  ![iphone checker](./documentation/iphone12pro.png)
+  - Samsung Galaxy Fold
 
-**Anything more?**
+  ![fold checker](./documentation/fold.png)
+  - Samsung Galaxy S20
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+  ![galaxy checker](./documentation/galaxys20.png)
 
----
 
-Happy coding!
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official
+  ![html checker](./documentation/html_checker.png)
+  ![html checker](./documentation/html-gallety.png)
+  ![html checker](./documentation/html-contact.png)
+
+- CSS
+  - No errors were found when passing through the official
+  ![w3c](./documentation/w3c.png)
+  
+- Lighhouse
+  - The site scored well
+
+ ![performance](./documentation/performance.png)
+
+   - The site scored well
+
+ ![performance](./documentation/performance-gallery.png)
+
+   - The low performance is due to large image dimensions
+
+ ![performance](./documentation/performance-contact.png)
+
+## Unfixed Bugs
+
+No unfixed bugs that i am aware.
+
+## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/JoaoHigino/SandraHomeOrganization), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://joaohigino.github.io/SandraHomeOrganization)
+
+### Local Deployment
+
+In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/JoaoHigino/SandraHomeOrganization.gitX`
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/JoaoHigino/SandraHomeOrganization)
+
+
+## **Content**
+
+All content was written by developer. 
+
+## Acknowledgements
+
+- To my amazing wife Sandra, my best friend, my mentor, and my safe haven, without her, all my dreams will be impossible to achieve. She is everything.
+- To my two kids, Maria and Thomas, with them life is easy and light. They make me laugh and think that our future is bright.
+- To my family and friends - for being a great support and providing a lot of the user testing for me, especially my friends from "Liga 7 BP" with their craziness helped me to clean my head.
+- To my mentor Tim Nelson for all his guidance, support, tips, and feedback.
+- The Code Institute community on slack and my classmates its been a pleasure so far.

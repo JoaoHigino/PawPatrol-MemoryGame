@@ -15,55 +15,27 @@ Memory game also called concentration is a game in which all of the cards are la
 ![sandra nav bar](./documentation/sandra_nav_bar.png)
 
 
-- __The landing page image__
+- __How to Play button__
 
-  - The landing includes a photograph to allow the user to see how a house can be with our services. 
-  - A motivation phrase under the main image.
+  - When clicked will open a pop-up window with the rules. 
   
-![main image](./documentation/main_image.png)
 
+![how to play](./documents/howtoplay.png)
 
-- __About Us Section__
+- __How to Play pop-up__
 
-  - Includes a small story about the company. 
-  - In this section, we show our future custumers what type of services we have available.
+  - 
 
-![about us](./documentation/about_us.png)
+![rules](./documents/rules.png)
 
-
-
-- __Why have us section__
+- __Reset button__
 
   - This section will allow the user to see some benefits of having us as a cleaning company.  
 
-![house](./documentation/why_us.png)
+![house](./documents/reset.png)
 
 
-- __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Sandra Home and Organization. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
-
-![footer](./documentation/footer.png)
-
-
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what our final projects look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of services we offer. 
-
-![X]()
-
-
-- __The contact Page__
-
-  - This page will allow the user to choose which service they need. The user will be asked to submit their full name and email address. 
-
-![Y]()
-
-- __The confirmation Page__
-
-  - This page will confirm to the users that we receive their message and we will reach out as soon as possible.
   
  ![Z]()
 
@@ -87,55 +59,63 @@ Memory game also called concentration is a game in which all of the cards are la
 
 ## Browser testing
 
-- Chrome
-![chrome checker]()
-- Opera
-![opera checker]()
-- Edge
-![edge checker]()
-- Safari
+ - Chrome
 
-![safari checker]()
+ ![chrome checker](./documents/chrome.png)
+ - Opera
+
+ ![opera checker](./documents/opera.jpeg)
+ - Edge
+
+ ![edge checker](./documents/edge.png)
+ - Safari
+
+ ![safari checker](./documents/safari.jpeg)
 
 ## Mobile Testing 
 
 - The website was viewed on a variety of devices such as desktops, Laptops, Apples Products and a range of Android devices:
-  - IPad Mini
 
-  ![ipad checker]()
-  - iPhone 12 Pro
+  - Iphone 12
 
-  ![iphone checker]()
-  - Samsung Galaxy Fold
+  ![iphone checker](./documents/iphone12.png)
+   
+  - Motorola Edge 20 Lite
 
-  ![fold checker](./documentation/fold.png)
-  - Samsung Galaxy S20
+  ![moto checker](./documents/motoedge20lite.jpeg)
+   
+  - Samsung Galaxy A13
 
-  ![galaxy checker]()
+  ![galaxy checker](./documents/samsunggalaxya13.jpeg)
+   
+  - One Plus 9
+
+  ![one plus checker](./documents/onePlus9.jpeg)
+   
+  - Huawei Y5P
+
+  ![huawei checker](./documents/huaweiy5p.jpeg)
+   
 
 
 ### Validator Testing 
 
 - HTML
+
   - No errors were returned when passing through the official
-  ![html checker]()
+  ![html checker](./documents/html.png)
 
 - CSS
+
   - No errors were found when passing through the official
   ![w3c](./documents/w3c.png)
   
 - Lighhouse
+
   - The site scored well
 
- ![performance]()
+  ![performance](./documents/performance.png)
 
-   - The site scored well
-
- ![performance]()
-
-   - The low performance is due to large image dimensions
-
- ![performance]()
 
 ## Unfixed Bugs
 

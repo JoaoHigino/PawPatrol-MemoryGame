@@ -62,7 +62,9 @@ const checkCards = () => {
 
 };
 // reveal cards
-const revealCard = ({ target }) => {
+const revealCard = ({
+  target
+}) => {
 
   if (target.parentNode.className.includes('reveal-card')) {
     return;
@@ -80,7 +82,7 @@ const revealCard = ({ target }) => {
 
     checkCards();
 
-  }  
+  }
 };
 // create card
 const createCard = (character) => {
@@ -101,7 +103,7 @@ const createCard = (character) => {
 };
 // load game
 const loadGame = () => {
-  const duplicateCharacters = [ ...characters, ...characters ];
+  const duplicateCharacters = [...characters, ...characters];
 
   const shuffledArray = duplicateCharacters.sort(() => Math.random() - 0.5);
 
@@ -121,9 +123,10 @@ const startTimer = () => {
 };
 
 window.onload = () => {
-  spanPlayer.innerHTML = localStorage.getItem('player');
+
   startTimer();
   loadGame();
+
 };
 
 
@@ -131,9 +134,15 @@ window.onload = () => {
 
 const resetButton = document.querySelector(".reset");
 
-resetButton.addEventListener("click", () => {
-   
-});
+resetButton.addEventListener("click", resetGame);
+
+function resetGame() {
+  startTimer();
+  loadGame();
+  checkCards();
+  checkEndGame();
+  // grid.appendChild(card);
+}
 
 
 
@@ -146,7 +155,7 @@ let rules = document.getElementsByClassName("rules-pop");
 rulesButton.addEventListener('click', showRules);
 
 function showRules() {
-    rules[0].style.display = "block";
+  rules[0].style.display = "block";
 }
 
 /* close instructions */
@@ -156,9 +165,5 @@ rules = document.getElementsByClassName("rules-pop");
 playButton.addEventListener('click', hideRules);
 
 function hideRules() {
-    rules[0].style.display = "none";
+  rules[0].style.display = "none";
 }
-
-
-
-

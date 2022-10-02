@@ -154,8 +154,8 @@ main {
     justify-content: center;
     perspective: 800px;
   }
+
   .card {
-    /* aspect-ratio: 3/4; */
     width: 100%;
     border-radius: 5px;
     position: relative;
@@ -163,6 +163,7 @@ main {
     transform-style: preserve-3d;
     background-color: transparent;
   }
+
   .heading {
     font-size: 150%;
   }
@@ -200,8 +201,8 @@ main {
     margin: 3rem auto;
     padding: 1rem;
   }
+
   .card {
-    /* aspect-ratio: 3/4; */
     width: 100%;
     border-radius: 5px;
     position: relative;
@@ -229,6 +230,7 @@ main {
     font-size: 12px;
     letter-spacing: 1px;
   }
+
   .card {
     /* aspect-ratio: 3/4; */
     width: 100%;

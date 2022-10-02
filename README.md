@@ -52,6 +52,23 @@ A memory game also called concentration is a game in which all of the cards are 
 - [Am I Responsive](https://ui.dev/amiresponsive?url=https://joaohigino.github.io/CHANGE/) - was used to produce the website mockup.
 - [JSHint](https://jshint.com/) - was used to 
 
+## Sources
+
+<!-- Should i write why?  -->
+
+- [How to randomize array](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)
+
+- [Memory Card Game - JavaScript Tutorial](https://marina-ferreira.github.io/projects/js/memory-game/)
+
+- [JavaScript Memory Match](https://github.com/jamesqquick/javascript-memory-match/blob/master/app.js)
+
+- [Sea Creature Memory Game](https://kaylaesmith1.github.io/sea-creature-memory-game/)
+
+- [Reset a Sketch with Button Click](https://www.youtube.com/watch?v=lm8Y8TD4CTM)
+
+- [Building the Memory/Concentration card game with JavaScript](https://www.youtube.com/watch?v=ADwdef6vXZU&t=598s)
+
+- [How to Code a Card Matching Game](https://www.youtube.com/watch?v=28VfzEiJgy4&t=1823s)
 
 ## Browser testing
 
@@ -136,10 +153,6 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/JoaoHigino/PawPatrol-MemoryGame)
 
-
-## **Content**
-
-All content was written by developer. 
 
 ## Acknowledgements
 

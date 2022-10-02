@@ -1,18 +1,16 @@
 # Paw Patrol Memory Game
 
-Memory game also called concentration is a game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards. Paw Patrol memory game is a game using paw patrol characters to match 10 pairs. 
-
+A memory game also called concentration is a game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards. Paw Patrol memory game is a game using paw patrol characters to match 10 pairs. 
 
 ![diferent views](./documents/paw-patrol-responsive.png)
 
 ### Existing Features
 
-- __Navigation Bar__
+- __Header__
 
-  - Featured on all three pages and the shortcut to About Us, the full responsive navigation bar includes links to the Logo, Home page, About Us, Gallery, and Contact page and is identical on each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert to the previous page via the ‘back’ button. 
+  - Featured the game logo, the game timer, and the how-to-play and reset buttons. 
 
-![sandra nav bar](./documentation/sandra_nav_bar.png)
+![header](./documents/header.png)
 
 
 - __How to Play button__
@@ -24,30 +22,27 @@ Memory game also called concentration is a game in which all of the cards are la
 
 - __How to Play pop-up__
 
-  - 
+  - When clicked How to play button will show up all the rules, how to win the game and the commercial intention.
 
 ![rules](./documents/rules.png)
 
 - __Reset button__
 
-  - This section will allow the user to see some benefits of having us as a cleaning company.  
+  - This button will reset the game to and start it again.  
 
-![house](./documents/reset.png)
-
-
-
-  
- ![Z]()
+![reset](./documents/reset.png)
 
 
 ### Features Left to Implement
 
-- Add some videos demonstrating our different types of services.
+- Create a player every time the game starts and create a leaderboard with the results. 
 
 ## Technologies Used
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+- [Wikipedia](https://en.wikipedia.org/wiki/Concentration_(card_game))- was used to check the memory game rules
 - [Gitpod](https://www.gitpod.io) - was used to create the website
 - [Github](https://github.com) - was used to store repository of website and deploy the website
 - [Chrome Dev Tools](https://developer.chrome.com/docs/devtools) - was used to view and experiment with styles
@@ -56,6 +51,7 @@ Memory game also called concentration is a game in which all of the cards are la
 - [Grammarly](https://app.grammarly.com) - was used to check typography.
 - [Am I Responsive](https://ui.dev/amiresponsive?url=https://joaohigino.github.io/CHANGE/) - was used to produce the website mockup.
 - [JSHint](https://jshint.com/) - was used to 
+
 
 ## Browser testing
 
@@ -134,7 +130,7 @@ The live link can be found [here](https://joaohigino.github.io/PawPatrol-MemoryG
 
 In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
 
-- `git clone https://github.com/JoaoHigino/SandraHomeOrganization.gitX`
+- `git clone https://github.com/JoaoHigino/PawPatrol-MemoryGame.gitX`
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 

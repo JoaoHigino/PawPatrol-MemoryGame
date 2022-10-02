@@ -4,11 +4,11 @@ A memory game also called concentration is a game in which all of the cards are 
 
 ![diferent views](./documents/paw-patrol-responsive.png)
 
-### Existing Features
+## Existing Features
 
 - __Header__
 
-  - Featured the game logo, the game timer, and the how-to-play and reset buttons. 
+  - Featured the game logo, game tittle, game timer, and the how-to-play and reset buttons. 
 
 ![header](./documents/header.png)
 
@@ -33,7 +33,7 @@ A memory game also called concentration is a game in which all of the cards are 
 ![reset](./documents/reset.png)
 
 
-### Features Left to Implement
+## Features Left to Implement
 
 - Create a player every time the game starts and create a leaderboard with the results. 
 
@@ -58,7 +58,9 @@ A memory game also called concentration is a game in which all of the cards are 
 
 - [How to randomize array](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)
 
-- [Memory Card Game - JavaScript Tutorial](https://marina-ferreira.github.io/projects/js/memory-game/)
+- [Memory Card Game - JavaScript Tutorial](https://www.youtube.com/watch?v=ZniVgo8U7ek&t=1505s)
+
+- [Memory-game](https://marina-ferreira.github.io/projects/js/memory-game/)
 
 - [JavaScript Memory Match](https://github.com/jamesqquick/javascript-memory-match/blob/master/app.js)
 
@@ -66,21 +68,28 @@ A memory game also called concentration is a game in which all of the cards are 
 
 - [Reset a Sketch with Button Click](https://www.youtube.com/watch?v=lm8Y8TD4CTM)
 
+- [Arrow Swipe Game with HTML, CSS and JavaScript](https://www.youtube.com/watch?v=1Au5rgP_V7E)
+
 - [Building the Memory/Concentration card game with JavaScript](https://www.youtube.com/watch?v=ADwdef6vXZU&t=598s)
 
 - [How to Code a Card Matching Game](https://www.youtube.com/watch?v=28VfzEiJgy4&t=1823s)
+
+
 
 ## Browser testing
 
  - Chrome
 
  ![chrome checker](./documents/chrome.png)
+
  - Opera
 
  ![opera checker](./documents/opera.jpeg)
+
  - Edge
 
  ![edge checker](./documents/edge.png)
+
  - Safari
 
  ![safari checker](./documents/safari.jpeg)
@@ -111,7 +120,7 @@ A memory game also called concentration is a game in which all of the cards are 
    
 
 
-### Validator Testing 
+## Validator Testing 
 
 - HTML
 
@@ -132,7 +141,7 @@ A memory game also called concentration is a game in which all of the cards are 
 
 ## Unfixed Bugs
 
-No unfixed bugs that i am aware.
+Sometimes the cards mirror themselves.
 
 ## Deployment
 

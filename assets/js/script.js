@@ -129,8 +129,6 @@ window.onload = () => {
 
 // reset
 
-
-
 const resetButton = document.querySelector(".reset");
 
 resetButton.addEventListener("click", () => {

@@ -50,7 +50,7 @@ A memory game also called concentration is a game in which all of the cards are 
 - [Pexels](https://www.pexels.com) - provided the images seen throughout the website
 - [Grammarly](https://app.grammarly.com) - was used to check typography.
 - [Am I Responsive](https://ui.dev/amiresponsive?url=https://joaohigino.github.io/CHANGE/) - was used to produce the website mockup.
-- [JSHint](https://jshint.com/) - was used to 
+- [JSHint](https://jshint.com/) - was used to find errors in Javascript code
 
 ## Sources
 

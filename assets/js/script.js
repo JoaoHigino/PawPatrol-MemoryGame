@@ -137,16 +137,12 @@ const resetButton = document.querySelector(".reset");
 resetButton.addEventListener("click", resetGame);
 
 function resetGame() {
-  startTimer();
-  loadGame();
-  checkCards();
-  checkEndGame();
+  // startTimer();
+  // loadGame();
+  // checkCards();
+  // checkEndGame();
   // grid.appendChild(card);
 }
-
-
-
-
 
 // how to play open instructions
 const rulesButton = document.querySelector(".howtoplay");

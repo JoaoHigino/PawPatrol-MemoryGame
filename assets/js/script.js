@@ -154,7 +154,7 @@ function showRules() {
   rules[0].style.display = "block";
 }
 
-/* close instructions */
+// close instructions 
 const playButton = document.querySelector(".back-button");
 rules = document.getElementsByClassName("rules-pop");
 

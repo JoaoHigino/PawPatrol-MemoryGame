@@ -48,18 +48,20 @@ main {
 }
 
 .card {
-  height: 8vw;
-  width: 8vw;
+  height: 10vw;
+  width: 10vw;
   border-radius: 5px;
   position: relative;
   transition: all 400ms ease;
   transform-style: preserve-3d;
   background-color: transparent;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .face {
-  width: 8vw;
-  height: 8vw;
+  width: 10vw;
+  height: 10vw;
   position: absolute;
   background-size: cover;
   background-position: center;
@@ -93,9 +95,9 @@ main {
 }
 
 .reset,
-.howtoplay {
+.howtoplay, .start {
   width: 8rem;
-  background-color: transparent;
+  background-color: white;
   color: #e91717;
   cursor: pointer;
   height: 3rem;
@@ -147,8 +149,7 @@ main {
     padding: 1rem;
   }
 }
-
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 950px) {
   .grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -157,7 +158,8 @@ main {
   }
 
   .card {
-    width: 100%;
+    width: 15vw;
+    height: 15vw;
     border-radius: 5px;
     position: relative;
     transition: all 400ms ease;
@@ -165,7 +167,36 @@ main {
     background-color: transparent;
   }
   .face {
-    width: 100%;
+    width: 15vw;
+    height: 15vw;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #0d0e0d;
+    border-radius: 5px;
+    transition: all 400ms ease;
+  }
+}
+@media screen and (max-width: 750px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    perspective: 800px;
+  }
+
+  .card {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 5px;
+    position: relative;
+    transition: all 400ms ease;
+    transform-style: preserve-3d;
+    background-color: transparent;
+  }
+  .face {
+    width: 20vw;
+    height: 20vw;
     position: absolute;
     background-size: cover;
     background-position: center;
@@ -190,7 +221,7 @@ main {
 @media screen and (max-width: 580px) {
   .grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     perspective: 800px;
   }
@@ -213,7 +244,8 @@ main {
   }
 
   .card {
-    width: 100%;
+    width: 30vw;
+    height: 30vw;
     border-radius: 5px;
     position: relative;
     transition: all 400ms ease;
@@ -221,7 +253,8 @@ main {
     background-color: transparent;
   }
   .face {
-    width: 100%;
+    width: 30vw;
+    height: 30vw;
     position: absolute;
     background-size: cover;
     background-position: center;
@@ -234,7 +267,7 @@ main {
 @media screen and (max-width: 390px) {
   .grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     perspective: 800px;
   }
@@ -250,15 +283,18 @@ main {
   }
 
   .card {
-    width: 100%;
+    width: 30vw;
+    height: 30vw;
     border-radius: 5px;
     position: relative;
     transition: all 400ms ease;
     transform-style: preserve-3d;
     background-color: transparent;
+    
   }
   .face {
-    width: 100%;
+    width: 30vw;
+    height: 30vw;
     position: absolute;
     background-size: cover;
     background-position: center;
@@ -266,4 +302,8 @@ main {
     border-radius: 5px;
     transition: all 400ms ease;
   }
+}
+
+.hidden{
+  display: none;
 }

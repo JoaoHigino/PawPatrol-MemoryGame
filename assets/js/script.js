@@ -96,6 +96,7 @@ const createCard = (character) => {
   card.appendChild(front);
   card.appendChild(back);
 
+  card.style.pointerEvents = "none";
   card.addEventListener('click', revealCard);
   card.setAttribute('data-character', character);
 
@@ -124,7 +125,7 @@ const startTimer = () => {
 
 window.onload = () => {
 
-  startTimer();
+  
   loadGame();
 
 };
@@ -138,6 +139,22 @@ resetButton.addEventListener("click", resetGame);
 
 function resetGame() {
   location.reload();
+}
+
+// start
+
+const startButton = document.querySelector(".start");
+
+startButton.addEventListener("click", startGame);
+
+function startGame() {
+  let cards = document.querySelectorAll(".card");
+  cards.forEach(card => {
+    card.style.pointerEvents = "auto";
+  });
+  resetButton.classList.remove("hidden");
+  startButton.classList.add("hidden");
+  startTimer();
 }
 
 // how to play open instructions

@@ -164,6 +164,15 @@ main {
     transform-style: preserve-3d;
     background-color: transparent;
   }
+  .face {
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #0d0e0d;
+    border-radius: 5px;
+    transition: all 400ms ease;
+  }
 
   .heading {
     font-size: 150%;
@@ -211,7 +220,15 @@ main {
     transform-style: preserve-3d;
     background-color: transparent;
   }
-
+  .face {
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #0d0e0d;
+    border-radius: 5px;
+    transition: all 400ms ease;
+  }
 }
 
 @media screen and (max-width: 390px) {
@@ -239,5 +256,14 @@ main {
     transition: all 400ms ease;
     transform-style: preserve-3d;
     background-color: transparent;
+  }
+  .face {
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #0d0e0d;
+    border-radius: 5px;
+    transition: all 400ms ease;
   }
 }

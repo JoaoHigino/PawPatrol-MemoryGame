@@ -137,11 +137,7 @@ const resetButton = document.querySelector(".reset");
 resetButton.addEventListener("click", resetGame);
 
 function resetGame() {
-  // startTimer();
-  // loadGame();
-  // checkCards();
-  // checkEndGame();
-  // grid.appendChild(card);
+  location.reload();
 }
 
 // how to play open instructions

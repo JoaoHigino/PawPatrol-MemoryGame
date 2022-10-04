@@ -8,29 +8,35 @@ A memory game also called concentration is a game in which all of the cards are 
 
 - __Header__
 
-  - Featured the game logo, game tittle, game timer, and the how-to-play and reset buttons. 
+  - Featured the game logo, game tittle, game timer, and the how-to-play and start/reset buttons. 
 
 ![header](./documents/header.png)
 
 
-- __How to Play button__
+ - __How to Play button__
 
   - When clicked will open a pop-up window with the rules. 
   
 
-![how to play](./documents/howtoplay.png)
+ ![how to play](./documents/howtoplay.png)
 
-- __How to Play pop-up__
+ - __How to Play pop-up__
 
   - When clicked How to play button will show up all the rules, how to win the game and the commercial intention.
 
-![rules](./documents/rules.png)
+ ![rules](./documents/rules.png)
+
+ - __Start button__
+
+  - When clicked the game starts.
+
+ ![start](./documents/start.png)
 
 - __Reset button__
 
   - This button will reset the game to and start it again.  
 
-![reset](./documents/reset.png)
+ ![reset](./documents/reset.png)
 
 
 ## Features Left to Implement
@@ -54,10 +60,6 @@ A memory game also called concentration is a game in which all of the cards are 
 
 ## Sources
 
-<!-- Should i write why?  -->
-
-- [How to randomize array](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)
-
 - [Memory Card Game - JavaScript Tutorial](https://www.youtube.com/watch?v=ZniVgo8U7ek&t=1505s)
 
 - [Memory-game](https://marina-ferreira.github.io/projects/js/memory-game/)
@@ -67,6 +69,8 @@ A memory game also called concentration is a game in which all of the cards are 
 - [Sea Creature Memory Game](https://kaylaesmith1.github.io/sea-creature-memory-game/)
 
 - [Reset a Sketch with Button Click](https://www.youtube.com/watch?v=lm8Y8TD4CTM)
+
+- [How to randomize array](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)
 
 - [Arrow Swipe Game with HTML, CSS and JavaScript](https://www.youtube.com/watch?v=1Au5rgP_V7E)
 
@@ -102,9 +106,9 @@ A memory game also called concentration is a game in which all of the cards are 
 
   ![iphone checker](./documents/iphone12.png)
    
-  - Motorola Edge 20 Lite
+  - Ipad Mini
 
-  ![moto checker](./documents/motoedge20lite.jpeg)
+  ![ipad checker](./documents/ipad.png)
    
   - Samsung Galaxy A13
 
@@ -112,11 +116,11 @@ A memory game also called concentration is a game in which all of the cards are 
    
   - One Plus 9
 
-  ![one plus checker](./documents/onePlus9.jpeg)
+  ![one plus checker](./documents/oneplus9.png)
    
   - Huawei Y5P
 
-  ![huawei checker](./documents/huaweiy5p.jpeg)
+  ![huawei checker](./documents/huawei.jpeg)
    
 
 
@@ -132,6 +136,19 @@ A memory game also called concentration is a game in which all of the cards are 
   - No errors were found when passing through the official
   ![w3c](./documents/w3c.png)
   
+- JavaScript
+
+  - No errors were found when passing through the official [JSHint](https://jshint.com/)
+   
+    -There are 17 functions in this file.
+   
+    -Function with the largest signature take 2 arguments, while the median is 0.
+   
+    -Largest function has 10 statements in it, while the median is 2.
+   
+    -The most complex function has a cyclomatic complexity value of 4 while the median is 1.
+
+
 - Lighhouse
 
   - The site scored well
@@ -139,9 +156,11 @@ A memory game also called concentration is a game in which all of the cards are 
   ![performance](./documents/performance.png)
 
 
+
+
 ## Unfixed Bugs
 
-Sometimes the cards mirror themselves.
+No bugs that i am aware off.
 
 ## Deployment
 

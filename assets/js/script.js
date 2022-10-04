@@ -125,7 +125,7 @@ const startTimer = () => {
 
 window.onload = () => {
 
-  
+
   loadGame();
 
 };

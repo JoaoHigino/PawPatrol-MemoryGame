@@ -112,7 +112,7 @@ A memory game also called concentration is a game in which all of the cards are 
    
   - Samsung Galaxy A13
 
-  ![galaxy checker](./documents/samsunggalaxya13.jpeg)
+  ![galaxy checker](./documents/galaxy.png)
    
   - One Plus 9
 

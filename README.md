@@ -2,7 +2,7 @@
 
 A memory game also called concentration is a game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards. Paw Patrol memory game is a game using paw patrol characters to match 10 pairs. 
 
-![diferent views](./documents/pawpatrolresponsive.png)
+![diferent views](documents/pawpatrolresponsive.png)
 
 ## Existing Features
 
@@ -10,7 +10,7 @@ A memory game also called concentration is a game in which all of the cards are 
 
   - Featured the game logo, game tittle, game timer, and the how-to-play and start/reset buttons. 
 
-![header](./documents/header.png)
+![header](documents/header.png)
 
 
  - __How to Play button__
@@ -18,31 +18,31 @@ A memory game also called concentration is a game in which all of the cards are 
   - When clicked will open a pop-up window with the rules. 
   
 
- ![how to play](./documents/howtoplay.png)
+ ![how to play](documents/howtoplay.png)
 
  - __How to Play pop-up__
 
   - When clicked How to play button will show up all the rules, how to win the game and the commercial intention.
 
- ![rules](./documents/rules.png)
+ ![rules](documents/rules.png)
 
  - __Start button__
 
   - When clicked the game starts.
 
- ![start](./documents/start.png)
+ ![start](documents/start.png)
 
 - __Reset button__
 
   - This button will reset the game to and start it again.  
 
- ![reset](./documents/reset.png)
+ ![reset](documents/reset.png)
 
- - __Reset button__
+ - __Timer button__
 
- - This button will reset the game to and start it again.  
+ - This tracks how long the games is active, once all matches are found the timer stops. 
 
- ![reset](./documents/reset.png)
+ ![reset](documents/timer.png)
 
 
 ## Features Left to Implement
@@ -64,109 +64,83 @@ A memory game also called concentration is a game in which all of the cards are 
 - [Am I Responsive](https://ui.dev/amiresponsive?url=https://joaohigino.github.io/CHANGE/) - was used to produce the website mockup.
 - [JSHint](https://jshint.com/) - was used to find errors in Javascript code
 
-## Sources
 
-- [Memory Card Game - JavaScript Tutorial](https://www.youtube.com/watch?v=ZniVgo8U7ek&t=1505s)
+## Testing
 
-- [Memory-game](https://marina-ferreira.github.io/projects/js/memory-game/)
-
-- [JavaScript Memory Match](https://github.com/jamesqquick/javascript-memory-match/blob/master/app.js)
-
-- [Sea Creature Memory Game](https://kaylaesmith1.github.io/sea-creature-memory-game/)
-
-- [Reset a Sketch with Button Click](https://www.youtube.com/watch?v=lm8Y8TD4CTM)
-
-- [How to randomize array](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)
-
-- [Arrow Swipe Game with HTML, CSS and JavaScript](https://www.youtube.com/watch?v=1Au5rgP_V7E)
-
-- [Building the Memory/Concentration card game with JavaScript](https://www.youtube.com/watch?v=ADwdef6vXZU&t=598s)
-
-- [How to Code a Card Matching Game](https://www.youtube.com/watch?v=28VfzEiJgy4&t=1823s)
-
-
-
-## Browser testing
+### Browser testing
 
  - Chrome
 
- ![chrome checker](./documents/chrome.png)
+ ![chrome checker](documents/chrome.png)
 
  - Opera
 
- ![opera checker](./documents/opera.jpeg)
+ ![opera checker](documents/opera.jpeg)
 
  - Edge
 
- ![edge checker](./documents/edge.png)
+ ![edge checker](documents/edge.png)
 
  - Safari
 
- ![safari checker](./documents/safari.jpeg)
+ ![safari checker](documents/safari.jpeg)
 
-## Mobile Testing 
+### Mobile Testing 
 
 - The website was viewed on a variety of devices such as desktops, Laptops, Apples Products and a range of Android devices:
 
   - Iphone 12
 
-  ![iphone checker](./documents/iphone12.png)
+  ![iphone checker](documents/iphone12.png)
    
   - Ipad Mini
 
-  ![ipad checker](./documents/ipad.png)
+  ![ipad checker](documents/ipad.png)
    
   - Samsung Galaxy A13
 
-  ![galaxy checker](./documents/galaxy.png)
+  ![galaxy checker](documents/galaxy.png)
    
   - One Plus 9
 
-  ![one plus checker](./documents/oneplus9.png)
+  ![one plus checker](documents/oneplus9.png)
    
   - Huawei Y5P
 
-  ![huawei checker](./documents/huawei.jpeg)
+  ![huawei checker](documents/huawei.jpeg)
    
 
 
-## Validator Testing 
+### Validator Testing 
 
 - HTML
 
   - No errors were returned when passing through the official
-  ![html checker](./documents/html.png)
+  ![html checker](documents/html.png)
 
 - CSS
 
   - No errors were found when passing through the official
-  ![w3c](./documents/w3c.png)
+  ![w3c](documents/w3c.png)
   
 - JavaScript
 
   - No errors were found when passing through the official 
    
-    -There are 17 functions in this file.
-   
-    -Function with the largest signature take 2 arguments, while the median is 0.
-   
-    -Largest function has 10 statements in it, while the median is 2.
-   
-    -The most complex function has a cyclomatic complexity value of 4 while the median is 1.
-  ![jshint](./documents/jshint.png)
+  ![jshint](documents/jshint.png)
 
 - Lighhouse
 
   - The site scored well
 
-  ![performance](./documents/performance.png)
+  ![performance](documents/performance.png)
 
 
 
 
-## Unfixed Bugs
+### Unfixed Bugs
 
-No bugs that i am aware off.
+No bugs that i am aware of.
 
 ## Deployment
 
@@ -187,8 +161,35 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/JoaoHigino/PawPatrol-MemoryGame)
 
+## Credits
 
-## Acknowledgements
+### Media
+
+ - [Card Images](https://pawpatrol.fandom.com/wiki/PAW_Patrol_Wiki)
+
+ - [Background Image](https://www.facebook.com/240240796909527/photos/a.547312462869024/547314762868794/?type=3)
+
+### Sources
+
+- [Memory Card Game - JavaScript Tutorial](https://www.youtube.com/watch?v=ZniVgo8U7ek&t=1505s)
+
+- [Memory-game](https://marina-ferreira.github.io/projects/js/memory-game/)
+
+- [JavaScript Memory Match](https://github.com/jamesqquick/javascript-memory-match/blob/master/app.js)
+
+- [Sea Creature Memory Game](https://kaylaesmith1.github.io/sea-creature-memory-game/)
+
+- [Reset a Sketch with Button Click](https://www.youtube.com/watch?v=lm8Y8TD4CTM)
+
+- [How to randomize array](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)
+
+- [Arrow Swipe Game with HTML, CSS and JavaScript](https://www.youtube.com/watch?v=1Au5rgP_V7E)
+
+- [Building the Memory/Concentration card game with JavaScript](https://www.youtube.com/watch?v=ADwdef6vXZU&t=598s)
+
+- [How to Code a Card Matching Game](https://www.youtube.com/watch?v=28VfzEiJgy4&t=1823s)
+
+### Acknowledgements
 
 - To my amazing wife Sandra, my best friend, my mentor, and my safe haven, without her, all my dreams will be impossible to achieve. She is everything.
 - To my two kids, Maria and Thomas, with them life is easy and light. They make me laugh and think that our future is bright. 

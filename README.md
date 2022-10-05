@@ -140,7 +140,10 @@ A memory game also called concentration is a game in which all of the cards are 
 
 ### Unfixed Bugs
 
-No bugs that i am aware of.
+I am aware of a random bug that doesn't affect the game play and cannot find a solution to fix it before the deadline.
+When I have more time after the course I will investigate so it doesn't occur.
+
+![bug](documents/bug.png)
 
 ## Deployment
 

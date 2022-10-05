@@ -39,7 +39,7 @@ A memory game also called concentration is a game in which all of the cards are 
  ![reset](./documents/reset.png)
 
  - __Reset button__
- 
+
  - This button will reset the game to and start it again.  
 
  ![reset](./documents/reset.png)
@@ -144,7 +144,7 @@ A memory game also called concentration is a game in which all of the cards are 
   
 - JavaScript
 
-  - No errors were found when passing through the official [JSHint](https://jshint.com/)
+  - No errors were found when passing through the official 
    
     -There are 17 functions in this file.
    
@@ -153,7 +153,7 @@ A memory game also called concentration is a game in which all of the cards are 
     -Largest function has 10 statements in it, while the median is 2.
    
     -The most complex function has a cyclomatic complexity value of 4 while the median is 1.
-
+  ![jshint](./documents/jshint.png)
 
 - Lighhouse
 
@@ -181,7 +181,7 @@ The live link can be found [here](https://joaohigino.github.io/PawPatrol-MemoryG
 
 In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
 
-- `git clone https://github.com/JoaoHigino/PawPatrol-MemoryGame.gitX`
+- `git clone https://github.com/JoaoHigino/PawPatrol-MemoryGame.git`
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 

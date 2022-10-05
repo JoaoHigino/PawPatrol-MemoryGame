@@ -60,6 +60,7 @@ main {
 }
 
 .face {
+  background-color: white;
   width: 10vw;
   height: 10vw;
   position: absolute;

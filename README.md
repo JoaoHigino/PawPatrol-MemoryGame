@@ -38,6 +38,12 @@ A memory game also called concentration is a game in which all of the cards are 
 
  ![reset](./documents/reset.png)
 
+ - __Reset button__
+ 
+ - This button will reset the game to and start it again.  
+
+ ![reset](./documents/reset.png)
+
 
 ## Features Left to Implement
 

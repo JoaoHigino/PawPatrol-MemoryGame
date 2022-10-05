@@ -1,3 +1,4 @@
+/* jshint esversion: 11 */
 const grid = document.querySelector('.grid');
 const timer = document.querySelector('.timer');
 

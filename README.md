@@ -38,7 +38,7 @@ A memory game also called concentration is a game in which all of the cards are 
 
  ![reset](documents/reset.png)
 
- - __Timer button__
+ - __Timer__
 
  - This tracks how long the games is active, once all matches are found the timer stops. 
 

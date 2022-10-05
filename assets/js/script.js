@@ -130,7 +130,7 @@ window.onload = () => {
 };
 
 
-// reset
+// reset game
 
 const resetButton = document.querySelector(".reset");
 
@@ -140,7 +140,7 @@ function resetGame() {
   location.reload();
 }
 
-// start
+// start game
 
 const startButton = document.querySelector(".start");
 

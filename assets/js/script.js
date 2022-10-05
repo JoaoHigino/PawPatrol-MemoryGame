@@ -15,6 +15,7 @@ const characters = [
   'mayorgoodway',
   'rubles',
 ];
+
 // create board
 const createElement = (tag, className) => {
   const element = document.createElement(tag);
@@ -30,30 +31,27 @@ const checkEndGame = () => {
 
   if (disabledCards.length === 20) {
     clearInterval(this.loop);
-    alert(`Congratulations, your time was: ${timer.innerHTML}`);
+    setTimeout(() => {
+      alert(`Congratulations, your time was: ${timer.innerHTML}`);
+    }, 1000);
   }
 };
+
 // check cards
 const checkCards = () => {
   const firstCharacter = firstCard.getAttribute('data-character');
   const secondCharacter = secondCard.getAttribute('data-character');
 
   if (firstCharacter === secondCharacter) {
-
     firstCard.firstChild.classList.add('disabled-card');
     secondCard.firstChild.classList.add('disabled-card');
-
     firstCard = '';
     secondCard = '';
-
     checkEndGame();
-
   } else {
     setTimeout(() => {
-
       firstCard.classList.remove('reveal-card');
       secondCard.classList.remove('reveal-card');
-
       firstCard = '';
       secondCard = '';
 
@@ -61,10 +59,9 @@ const checkCards = () => {
   }
 
 };
+
 // reveal cards
-const revealCard = ({
-  target
-}) => {
+const revealCard = ({ target }) => {
 
   if (target.parentNode.className.includes('reveal-card')) {
     return;
@@ -84,6 +81,7 @@ const revealCard = ({
 
   }
 };
+
 // create card
 const createCard = (character) => {
 
@@ -92,20 +90,18 @@ const createCard = (character) => {
   const back = createElement('div', 'face back');
 
   front.style.backgroundImage = `url('assets/images/${character}.png')`;
-
   card.appendChild(front);
   card.appendChild(back);
-
   card.style.pointerEvents = "none";
   card.addEventListener('click', revealCard);
   card.setAttribute('data-character', character);
 
   return card;
 };
+
 // load game
 const loadGame = () => {
   const duplicateCharacters = [...characters, ...characters];
-
   const shuffledArray = duplicateCharacters.sort(() => Math.random() - 0.5);
 
   shuffledArray.forEach((character) => {
@@ -113,9 +109,9 @@ const loadGame = () => {
     grid.appendChild(card);
   });
 };
+
 // start timer
 const startTimer = () => {
-
   this.loop = setInterval(() => {
     const currentTime = +timer.innerHTML;
     timer.innerHTML = currentTime + 1;
@@ -124,12 +120,8 @@ const startTimer = () => {
 };
 
 window.onload = () => {
-
-
   loadGame();
-
 };
-
 
 // reset game
 
